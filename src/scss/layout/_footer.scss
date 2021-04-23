@@ -1,8 +1,21 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer-page {
+  background-color: #304268;
+  color: #ffffff;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-footer {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer-small {
+  display: block;
 }
