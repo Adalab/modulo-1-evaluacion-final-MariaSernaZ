@@ -3,10 +3,20 @@
   color: #ffffff;
 }
 
-.ico-scroll {
+.scroll-up {
   width: 45px;
   height: 45px;
+  border-radius: 50%;
   background-color: #ffffff;
+  padding: 10px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.nav-container {
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .nav-footer {
@@ -25,11 +35,20 @@
   line-height: 30px;
 }
 
+.nav1 {
+  padding-bottom: 30px;
+}
+
+.small-container {
+  padding-bottom: 45px;
+}
+
 .footer-small {
   display: block;
   text-align: center;
+  line-height: 30px;
 }
 
 .heart {
-  color: red;
+  color: rgb(202, 26, 26);
 }
