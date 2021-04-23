@@ -3,10 +3,19 @@
   color: #ffffff;
 }
 
+.ico-scroll {
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+}
+
 .nav-footer {
+  display: block;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .link-footer {
@@ -18,4 +27,9 @@
 
 .footer-small {
   display: block;
+  text-align: center;
+}
+
+.heart {
+  color: red;
 }

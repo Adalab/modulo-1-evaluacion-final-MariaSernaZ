@@ -8,32 +8,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/ico-menu.svg" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   </head>
 
   <body class="body-page">
     <div class="page">
       <header class="header-page">
-        <div class="menu-icon"></div> 
-        
-        <div class="cover">
-          <!--<img src="./assets/images/cover.jpg" alt="Cover">-->
-            <h1>anonymous proxy</h1>
-              <p>in hac habitasse platea dictumst.</p>
-            <div class="cover-icon"></div>
+        <div class="menu-ico">
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a class="link-ico" href="https://adalab.es/"><img class="img-ico" src="./assets/images/ico-menu.svg" alt="Navegador"></a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+
+        <div class="background-cover">
+          <section class="cover">
+            <!--<img src="./assets/images/cover.jpg" alt="Cover">-->
+            <h1 class="h1">anonymous proxy</h1>
+              <p class="text-cover">in hac habitasse platea dictumst.</p>
+            <div class="ico-scroll">
+              <img class="ico-scroll" src="./assets/images/ico-scroll-down.svg" alt="Scroll down">
+            </div>
+          </section>
         </div>
       </header>
 
       <main class="main-page">
-        <section>
-          <article>
-            <h2> Looking through a window</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corporis delectus saepe sed qui voluptas velit itaque hic, et, corrupti officia? Consequatur tenetur ex eveniet soluta. Quibusdam ipsam recusandae mollitia.</p>
-            <button>go</button>
+        <section class="looking-contain">
+          <article class="looking-item">
+            <p class="insomnia">insomnia tips</p>
+            <h2 class="h2"> Looking through a window</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corporis delectus saepe sed qui voluptas velit itaque hic, et.</p>
+            <button class="go-button">go</button>
           </article>
         </section>
 
         <section>
-          <h2>3 reasons to purchase</h2>
+          <h2 class="h2">3 reasons to purchase</h2>
           <div>
             <article>
               <h3>Ut sed metus</h3>
@@ -55,15 +69,13 @@
       </main>
 
       <footer class="footer-page">
-        <div class="footer-icon"></div>
-        <div>
-          <small>
-            &copy; 2021 we <span></span> components
-          </small>
+        <div class="footer-icon">
+          <img class="ico-scroll" src="./assets/images/ico-arrow.svg" alt="Scroll up">
         </div>
+
         <div>
           <nav>
-            <ul>
+            <ul class="nav-footer">
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Articles">articles</a></li>
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Books">books</a></li>
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Events">events</a></li>
@@ -72,12 +84,18 @@
             </ul>
           </nav>
           <nav>
-            <ul>
+            <ul class="nav-footer">
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Articles">twitter</a></li>
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Articles">instagram</a></li>
               <li><a class="link-footer" href="https://adalab.es/" target="_blank" title="Articles">mastodon.social</a></li>
             </ul>
           </nav>
+        </div>
+
+        <div>
+          <small class="footer-small">
+            &copy; 2021 we <i class="heart fas fa-heart"></i>components
+          </small>
         </div>
       </footer>
 
