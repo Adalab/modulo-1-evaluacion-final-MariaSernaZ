@@ -1,13 +1,29 @@
-.header-page {
+/*.header-page {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}*/
+
+.header-nav {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
   position: fixed;
   top: 0;
   display: flex;
   justify-content: flex-start;
 }
 
-.header-page .menu-icon {
-  background-image: url("./assets/images/ico-menu.svg");
+a .menu-ico {
+  display: block;
+  padding: 15px;
+}
+
+/*.header-page .menu-ico {
+  background: url("./assets/images/ico-menu.svg");
   width: 44px;
   height: 44px;
   background-size: contain;
-}
+}*/

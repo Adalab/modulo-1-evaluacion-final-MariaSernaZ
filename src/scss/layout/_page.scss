@@ -1,10 +1,15 @@
-.cover {
-  background: url("./assets/images/cover.png") center no-repeat;
+/* COVER SECTION*/
+.background-cover {
+  background-image: url("../images/cover.jpg");
   height: 100vh;
-  z-index: 1;
   background-size: cover;
   width: 100%;
-  position: relative;
+  z-index: 1;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
 }
 
 .h1 {
@@ -21,6 +26,14 @@
   /*color*/
 }
 
+.ico-scroll {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* LOOKING SECTION */
 .looking-contain {
   padding: 30px 15px 45px 15px;
 }
