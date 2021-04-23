@@ -1,1 +1,57 @@
+.cover {
+  background: url("./assets/images/cover.png") center no-repeat;
+  height: 100vh;
+  z-index: 1;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
 
+.h1 {
+  text-transform: uppercase;
+  font-family: $font-title;
+  font-size: 42px;
+  text-align: center;
+  /*color*/
+}
+
+.text-cover {
+  font-size: 16px;
+  text-align: center;
+  /*color*/
+}
+
+.looking-contain {
+  padding: 30px 15px 45px 15px;
+}
+
+.insomnia {
+  font-size: 14px;
+  line-height: 30px;
+  color: #8ccbea;
+}
+
+.h2 {
+  font-family: $font-title;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #4a4a4a;
+}
+
+.go-button {
+  height: 45px;
+  width: 76px;
+  border-radius: 45%;
+  border: solid 2px #f26002;
+  color: #f26002;
+  background-color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}

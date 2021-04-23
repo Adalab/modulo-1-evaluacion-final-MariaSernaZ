@@ -1,11 +1,13 @@
-.header-page .menu-icon {
-  width: 44px;
-  height: 44px;
-  background-image: url(./assets/images/ico-menu.svg);
-  background-size: contain;
+.header-page {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
-/*.cover {
-  background-image: url(./assets/images/cover.png) cover;
-  height: 100vh;
-}*/
+.header-page .menu-icon {
+  background-image: url("./assets/images/ico-menu.svg");
+  width: 44px;
+  height: 44px;
+  background-size: contain;
+}
