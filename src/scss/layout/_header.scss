@@ -18,14 +18,17 @@
   background-image: url("../images/cover.jpg");
   height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
-  z-index: 1;
 }
 
 .cover {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  position: relative;
+  top: 50vh;
 }
 
 .h1 {
@@ -34,18 +37,24 @@
   font-size: 42px;
   text-align: center;
   color: #ffffff;
+  line-height: 55px;
+  padding-bottom: 10px;
 }
 
 .text-cover {
   font-size: 16px;
   text-align: center;
   color: #ffffff;
+  padding-bottom: 45px;
 }
 
 .scroll-down {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  margin: auto;
-  color: #ffffff;
+  background-color: #ffffff;
+  /*position: absolute;
+  bottom: 45px;
+  padding: 12px;
+  transform: translateX(320%);*/
 }

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/ico-menu.svg" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -15,24 +16,24 @@
     <div class="page">
       <header class="header-page">
         <div class="menu-ico">
-        <nav class="header-nav">
-          <ul>
-            <li>
-              <a class="link-ico" href="https://adalab.es/"><img class="img-ico" src="./assets/images/ico-menu.svg" alt="Navegador"></a>
-            </li>
-          </ul>
-        </nav>
+          <nav class="header-nav">
+            <ul>
+              <li>
+                <a class="link-ico" href="https://adalab.es/"><img class="img-ico" src="./assets/images/ico-menu.svg" alt="Navegador"></a>
+              </li>
+            </ul>
+          </nav>
         </div>
 
         <div class="background-cover">
           <section class="cover">
-            <!--<img src="./assets/images/cover.jpg" alt="Cover">-->
             <h1 class="h1">anonymous proxy</h1>
               <p class="text-cover">in hac habitasse platea dictumst.</p>
-            <div class="ico-scroll">
-              <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="Scroll down">
-            </div>
           </section>
+        
+          <div class="scroll-container">
+            <img class="scroll-down" src="./assets/images/ico-scroll-down.svg" alt="Scroll down">
+          </div>
         </div>
       </header>
 
@@ -46,24 +47,28 @@
           </article>
         </section>
 
-        <section>
+        <section class="main-reasons" >
           <h2 class="h2">3 reasons to purchase</h2>
-          <div>
-            <article>
-              <h3>Ut sed metus</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur.</p>
+          <div class="reasons-contain">
+            <article class="reasons-item">
+              <h3 class="h3">Ut sed metus</h3>
+              <p class="text-reason">
+                Lorem, ipsum dolor sit amet consectetur.
+              </p>
             </article>
-            <article>
-              <h3>Curabitur ac erat</h3>
-              <p>
+            <article class="reasons-item">
+              <h3 class="h3">Curabitur ac erat</h3>
+              <p class="text-reason">
                 Repellendus illo voluptate, quos rerum consectetur.
               </p>
             </article>
-            <article>
-              <h3>Morbi dictum</h3>
-              <p>Ullam facere quod maiores iste saepe.</p>
+            <article class="reasons-item">
+              <h3 class="h3">Morbi dictum</h3>
+              <p class="text-reason">
+                Ullam facere quod maiores iste saepe.
+              </p>
             </article>
-            <button>more reasons</button>
+            <button class="button-reasons">More reasons</button>
           </div>
         </section>
       </main>
