@@ -1,8 +1,12 @@
 // fonts
 $font-main: "Roboto", sans-serif;
+$font-title: "Roboto Slab", serif;
+$pathImages: "./assets/images/";
 
 // colors
 $color-bg: #f3f4f5;
 $color-secondary: #999;
 
-
+.body-page {
+  font-family: $font-main;
+}
