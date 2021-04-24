@@ -52,3 +52,23 @@
 .heart {
   color: rgb(202, 26, 26);
 }
+
+@media all and (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav-footer {
+    display: block;
+  }
+
+  .small-container {
+    order: -1;
+  }
+
+  .footer-small {
+    text-align: left;
+  }
+}
