@@ -67,9 +67,17 @@
 
   .small-container {
     order: -1;
+    padding-top: 0;
   }
 
   .footer-small {
     text-align: left;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .footer-page {
+    padding-left: 370px;
+    padding-right: 370px;
   }
 }
