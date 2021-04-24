@@ -48,13 +48,17 @@
   padding-bottom: 45px;
 }
 
+.text-cover:first-letter {
+  text-transform: uppercase;
+}
+
 .scroll-down {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   background-color: #ffffff;
-  /*position: absolute;
-  bottom: 45px;
-  padding: 12px;
-  transform: translateX(320%);*/
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
