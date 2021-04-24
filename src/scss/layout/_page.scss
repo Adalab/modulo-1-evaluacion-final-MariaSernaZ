@@ -42,21 +42,29 @@
 .main-reasons {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-  padding-left: 15px;
-  padding-right: 15px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   background-color: #eff9ff;
   text-align: center;
+  grid-row-gap: 45px;
+}
+
+.reasons-title {
+  padding-top: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .reasons-item {
   text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .h3 {
   font-size: 18px;
-  line-height: 30px;
   font-weight: bold;
+  margin-bottom: 0;
+  line-height: 30px;
 }
 
 .h3::first-letter {
@@ -66,7 +74,6 @@
 .text-reason {
   font-size: 18px;
   line-height: 30px;
-  padding-bottom: 45px;
 }
 
 .text-reason::first-letter {
@@ -81,6 +88,8 @@
   background-color: #f26002;
   font-size: 20px;
   color: #ffffff;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
 @media all and (min-width: 768px) {
