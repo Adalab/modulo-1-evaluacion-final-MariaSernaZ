@@ -6,6 +6,12 @@
 .looking-contain {
   padding: 30px 15px 45px 15px;
   background-color: $color-bg-looking;
+  @media all and (min-width: 768px) {
+    padding: 30px 39px 60px 39px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 60px 275px;
+  }
 }
 
 .insomnia {
@@ -13,6 +19,9 @@
   line-height: 30px;
   color: #8ccbea;
   text-transform: capitalize;
+  @media all and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .h2 {
@@ -22,6 +31,15 @@
   color: #000000;
   padding-bottom: 15px;
   text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 45px;
+  }
 }
 
 .text {
@@ -29,6 +47,9 @@
   line-height: 30px;
   color: #4a4a4a;
   padding-bottom: 30px;
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .go-button {
@@ -51,18 +72,41 @@
   background-color: $color-bg-reasons;
   text-align: center;
   grid-row-gap: 45px;
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 39px;
+    padding-right: 39px;
+    grid-column-gap: 27.7px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 81.2px;
+    padding-right: 85px;
+  }
 }
 
 .reasons-title {
   padding-top: 30px;
   margin-bottom: 0;
   padding-bottom: 0;
+  @media all and (min-width: 768px) {
+    grid-column: span 3;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  @media all and (min-width: 1200px) {
+    margin-top: 30px;
+  }
 }
 
 .reasons-item {
   text-align: center;
   padding-left: 70px;
   padding-right: 70px;
+  @media all and (min-width: 768px) {
+    padding: 0;
+  }
 }
 
 .h3 {
@@ -70,19 +114,16 @@
   font-weight: bold;
   margin-bottom: 0;
   line-height: 30px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
-
-.h3::first-letter {
-  text-transform: uppercase;
-}
-
 .text-reason {
   font-size: 18px;
   line-height: 30px;
-}
-
-.text-reason::first-letter {
-  text-transform: uppercase;
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
 
 .button-reasons {
@@ -97,75 +138,11 @@
   color: #ffffff;
   margin: auto;
   margin-bottom: 60px;
-}
-
-@media all and (min-width: 768px) {
-  /* LOOKING SECTION */
-  .looking-contain {
-    padding: 30px 39px 60px 39px;
-  }
-
-  .h2 {
-    font-size: 24px;
-    line-height: 30px;
-    padding-bottom: 30px;
-  }
-
-  /* REASONS SECTION*/
-  .main-reasons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 39px;
-    padding-right: 39px;
-    grid-column-gap: 27.7px;
-  }
-
-  .reasons-title {
-    grid-column: span 3;
-    padding-top: 30px;
-    padding-bottom: 0;
-  }
-
-  .reasons-item {
-    padding: 0;
-  }
-
-  .button-reasons {
+  @media all and (min-width: 768px) {
     grid-column: span 3;
     margin-bottom: 60px;
   }
-}
-
-@media all and (min-width: 1200px) {
-  /* LOOKING SECTION */
-  .looking-contain {
-    padding: 60px 275px;
-  }
-
-  .insomnia {
-    font-size: 16px;
-  }
-
-  .h2 {
-    font-size: 32px;
-    line-height: 45px;
-  }
-
-  .text {
-    font-size: 20px;
-  }
-
-  /* REASONS SECTION*/
-  .main-reasons {
-    padding-left: 81.2px;
-    padding-right: 85px;
-  }
-
-  .reasons-title {
-    margin-top: 30px;
-  }
-  .button-reasons {
+  @media all and (min-width: 1200px) {
     width: 255px;
     height: 45px;
     margin-top: 0;
