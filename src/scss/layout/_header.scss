@@ -45,6 +45,19 @@
   line-height: 55px;
   padding-bottom: 10px;
   text-shadow: 0 2px rgba(0, 0, 0, 0.2);
+
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+    padding-bottom: 20px;
+  }
+
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132px;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    padding-bottom: 0;
+  }
 }
 
 .text-cover {
@@ -52,14 +65,24 @@
   text-align: center;
   color: #ffffff;
   padding-bottom: 45px;
-}
 
-.text-cover:first-letter {
-  text-transform: uppercase;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
 }
 
 .scroll-container {
   margin-bottom: 68.3px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 60.3px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-bottom: 28.3px;
+  }
 }
 
 .scroll-down {
@@ -71,41 +94,4 @@
   position: relative;
   left: 50%;
   transform: translate(-50%, 50%);
-}
-
-@media all and (min-width: 768px) {
-  .h1 {
-    font-size: 80px;
-    line-height: 106px;
-    padding-bottom: 20px;
-  }
-
-  .text-cover {
-    font-size: 24px;
-    padding-bottom: 30px;
-  }
-
-  .scroll-container {
-    margin-bottom: 60.3px;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .h1 {
-    font-size: 100px;
-    line-height: 132px;
-    text-shadow: 0 2px rgba(0, 0, 0, 0.5);
-    padding-bottom: 0;
-  }
-
-  .cover {
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-end;
-    align-items: center;
-  }
-
-  .scroll-container {
-    margin-bottom: 28.3px;
-  }
 }
