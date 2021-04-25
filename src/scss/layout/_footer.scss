@@ -1,6 +1,10 @@
 .footer-page {
   background-color: $color-bg-footer;
   color: #ffffff;
+  @media all and (min-width: 1200px) {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
 }
 
 .scroll-up {
@@ -31,6 +35,11 @@
 .nav-container {
   padding-top: 60px;
   padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .nav-footer {
@@ -40,6 +49,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .link-footer {
@@ -56,42 +68,21 @@
 .small-container {
   padding-top: 30px;
   padding-bottom: 45px;
+  @media all and (min-width: 768px) {
+    order: -1;
+    padding-top: 0;
+  }
 }
 
 .footer-small {
   display: block;
   text-align: center;
   line-height: 30px;
-}
-
-.heart {
-  color: rgb(202, 26, 26);
-}
-
-@media all and (min-width: 768px) {
-  .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .nav-footer {
-    display: block;
-  }
-
-  .small-container {
-    order: -1;
-    padding-top: 0;
-  }
-
-  .footer-small {
+  @media all and (min-width: 768px) {
     text-align: left;
   }
 }
 
-@media all and (min-width: 1200px) {
-  .footer-page {
-    padding-left: 370px;
-    padding-right: 370px;
-  }
+.heart {
+  color: rgb(202, 26, 26);
 }
