@@ -8,8 +8,6 @@
   background-color: #0271bc;
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .menu-ico .link-ico {
@@ -25,6 +23,7 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
+  /*  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #k, #000000);*/
 }
 
 .cover {
@@ -40,7 +39,7 @@
   font-family: $font-title;
   font-size: 42px;
   text-align: center;
-  color: #ffffff;
+  color: $font-color-hero;
   word-spacing: 100vw;
   line-height: 55px;
   padding-bottom: 10px;
@@ -63,8 +62,9 @@
 .text-cover {
   font-size: 16px;
   text-align: center;
-  color: #ffffff;
+  color: $font-color-hero;
   padding-bottom: 45px;
+  font-weight: 400;
 
   &:first-letter {
     text-transform: uppercase;
