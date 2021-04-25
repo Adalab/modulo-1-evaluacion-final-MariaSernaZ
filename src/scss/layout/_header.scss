@@ -59,7 +59,7 @@
 }
 
 .scroll-container {
-  padding-bottom: 53px;
+  margin-bottom: 68.3px;
 }
 
 .scroll-down {
@@ -86,7 +86,7 @@
   }
 
   .scroll-container {
-    padding-bottom: 45px;
+    margin-bottom: 60.3px;
   }
 }
 
@@ -95,6 +95,7 @@
     font-size: 100px;
     line-height: 132px;
     text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    padding-bottom: 0;
   }
 
   .cover {
@@ -102,7 +103,9 @@
     flex-direction: column;
     justify-items: flex-end;
     align-items: center;
-    /*width: 50%;*/
-    /*transform: translate(50%, 50%);*/
+  }
+
+  .scroll-container {
+    margin-bottom: 28.3px;
   }
 }
