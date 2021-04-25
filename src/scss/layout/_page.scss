@@ -1,6 +1,11 @@
+.body-page {
+  font-family: $font-main;
+}
+
 /* LOOKING SECTION */
 .looking-contain {
   padding: 30px 15px 45px 15px;
+  background-color: $color-bg-looking;
 }
 
 .insomnia {
@@ -43,7 +48,7 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  background-color: #eff9ff;
+  background-color: $color-bg-reasons;
   text-align: center;
   grid-row-gap: 45px;
 }
