@@ -1,6 +1,7 @@
 .footer-page {
   background-color: $color-bg-footer;
-  color: #ffffff;
+  color: $font-color-footer;
+
   @media all and (min-width: 1200px) {
     padding-left: 370px;
     padding-right: 370px;
@@ -11,7 +12,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: $color-bg-icon-radius;
   padding: 10px;
   position: absolute;
   left: 50%;
@@ -34,11 +35,13 @@
 
 .nav-container {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
+
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 45px;
   }
 }
 
@@ -49,13 +52,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   @media all and (min-width: 768px) {
-    display: block;
+    align-items: flex-start;
   }
 }
 
 .link-footer {
-  color: #ffffff;
+  color: $font-color-footer;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 30px;
@@ -67,7 +71,7 @@
 
 .small-container {
   padding-top: 30px;
-  padding-bottom: 45px;
+
   @media all and (min-width: 768px) {
     order: -1;
     padding-top: 0;
@@ -77,12 +81,17 @@
 .footer-small {
   display: block;
   text-align: center;
+  font-size: 14px;
   line-height: 30px;
+
   @media all and (min-width: 768px) {
     text-align: left;
   }
 }
 
 .heart {
-  color: rgb(202, 26, 26);
+  color: #f26002;
+  font-size: 14px;
+  padding: 0 3px;
+  line-height: 2.14;
 }
