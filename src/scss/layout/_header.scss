@@ -69,6 +69,7 @@
   &:first-letter {
     text-transform: uppercase;
   }
+
   @media all and (min-width: 768px) {
     font-size: 24px;
     padding-bottom: 30px;
@@ -77,9 +78,11 @@
 
 .scroll-container {
   margin-bottom: 68.3px;
+
   @media all and (min-width: 768px) {
     margin-bottom: 60.3px;
   }
+
   @media all and (min-width: 1200px) {
     margin-bottom: 28.3px;
   }
